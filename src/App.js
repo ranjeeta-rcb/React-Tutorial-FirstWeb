@@ -8,16 +8,10 @@ function App() {
   return (
     <div className="main">
 <Header/> 
-<div className='row'>
-<Card/>
-<Card/>
-<Card/>
-<Card/>
-<Card/>
-<Card/>
-<Card/>
-<Card/>
-</div>
+ <div className='container'>
+  <h1 className='text-danger'>Welcome to Home page</h1>
+
+ </div>
 <Footer/> 
     </div>
   );
